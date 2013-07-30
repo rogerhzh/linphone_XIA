@@ -21,6 +21,9 @@ endif
 
 include $(linphone-root-dir)/submodules/linphone/mediastreamer2/src/android/libneon/Android.mk
 
+#Xsocket
+include $(linphone-root-dir)/submodules/externals/Xsocket/Android.mk
+
 ##ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 ifeq ($(BUILD_GPLV3_ZRTP), 1)
 	BUILD_SRTP=1

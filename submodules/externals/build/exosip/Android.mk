@@ -64,5 +64,6 @@ LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/include \
 	$(LOCAL_PATH)/../osip/include \
 	$(LOCAL_PATH)/../openssl/include \
+	$(LOCAL_PATH)/../Xsocket/include \
 
 include $(BUILD_STATIC_LIBRARY)
